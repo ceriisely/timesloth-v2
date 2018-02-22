@@ -1,0 +1,307 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="50dp"
+    android:paddingTop="30dp"
+    tools:context="com.example.obberertest.timesloth_sm10.ModuleConfigEthernetFragment">
+
+    <RelativeLayout
+        android:layout_width="1100dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp">
+                <RadioButton
+                    android:id="@+id/radio_dhcp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DHCP"
+                    android:textColor="@color/White"
+                    android:textSize="40sp"
+                    android:buttonTint="@color/White" />
+                <RadioButton
+                    android:id="@+id/radio_manually"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Manually"
+                    android:textColor="@color/White"
+                    android:textSize="40sp"
+                    android:buttonTint="@color/White" />
+            </RadioGroup>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/form_config_dhcp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/form_config_manually"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="IP Address"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"/>
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="Subnet mask"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"/>
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="Default gateway"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"/>
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:text="DNS"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"/>
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" . "
+                            android:textColor="@color/White"
+                            android:textSize="40sp" />
+                        <EditText
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789"
+                            android:textColor="@color/White"
+                            android:textSize="30sp"
+                            android:maxLength="3"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
